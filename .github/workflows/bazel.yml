@@ -33,7 +33,7 @@ jobs:
      # uses: bazel-contrib/setup-bazel@b388b84bb637e50cdae241d0f255670d4bd79f29
         uses: bazel-contrib/setup-bazel@0.8.1
         env:
-         USE_BAZEL_VERSION: 7.3.0
+         USE_BAZEL_VERSION: 7.x
         with:
       # Caches Bazelisk downloads based on .bazelversion
          bazelisk-cache: true
